@@ -1,0 +1,784 @@
+.mainbox{
+    height: 100px;
+    width:1800px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    position: fixed;
+}
+@media only screen and (max-width:425px){
+
+    .mainbox{
+        margin-top: 0px;
+
+        height: 125px;
+        width: 33%;
+
+        background-color: rgb(255,255,255);
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+    }
+    
+}
+.box{
+    display: flex;
+    gap: 28px;
+    margin-left: 35px;
+}
+@media only screen and (max-width:425px) {
+
+    .box{
+        display: flex;
+        gap: 28px;
+        margin-left: 17px;
+    }
+    
+}
+
+@media only screen and (max-width:425px) {
+
+    .box h1{
+        display: flex;
+        margin-left: 5px;
+    }
+    
+}
+
+.box1{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 48%;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+@media only screen and(max-width:425px){
+    .box1{
+        height: 25px;
+        width: 25px;
+        margin-top: 10px;
+        background-color: orange;
+        border-radius: 48%;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+    }
+}
+
+.box h1{
+    margin-top: 22px;
+}
+@media only screen and(max-width:425px){
+    .box h1{
+        margin-top: 0px;
+    }
+}
+
+
+.box i{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.mainbox2{
+    display: flex;
+    gap: 40px;
+    margin-top:35px;
+    font-size: 20px;
+}
+
+.box2 a{
+    color: black;
+}
+
+@media only screen and(max-width:425px){
+    .mainbox2{
+        display: flex;
+        gap: 40px;
+        margin-top: 80px;
+        margin-left: -190;
+        font-size: 15px;
+    }
+}
+
+.box2 a:hover{
+    color: rgb(255,170,0);
+
+}
+
+@media only screen and(max-width:425px){
+    .mainbox3{
+        margin-left: -90px;
+    }
+}
+
+.box3{
+    height: 50px;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 15px;
+}
+
+@media only screen and(max-width:425px){
+    .box1 i{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+}
+
+.box3 h3{
+    margin-top: 15px;
+}
+
+
+.mainbox4{
+    height: 800px;
+    width: 100%;
+    background-color: rgba(65, 65, 100, 0.085);
+    display: flex;
+}
+@media only screen and (max-width:425px) {
+            .mainbox4{
+                height: 1000px;
+    width: 100%;
+    background-color: rgba(65, 65, 100, 0.085);
+    display: inline-block;
+            
+            }
+        }
+.box4 button{
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 25px;
+    background-color: rgba(255, 166, 0, 0.26);
+    color: rgba(75, 58, 25, 0.681);
+    border:rgba(255, 166, 0, 0.26);
+    border-radius: 5px; 
+}
+@media only screen and (max-width:425px) {
+            .box4 button{
+                margin-top: 200px;
+    margin-left: 60px;
+    height: 25px;
+    background-color: rgba(255, 166, 0, 0.26);
+    color: rgba(75, 58, 25, 0.681);
+    border:rgba(255, 166, 0, 0.26);
+    border-radius: 5px; 
+            
+            }
+        }
+
+.box4 h2{
+    font-size: 50px; 
+    font-weight: lighter;
+    margin-left: 100px; 
+    margin-top: 5px;
+}
+.box4 p{
+    font-size: 70px; font-weight: lighter;margin-left: 100px; margin-top: -40px; 
+}
+.box4 h4{
+    margin-left: 100px; margin-top: -39px; font-weight: lighter; 
+}
+.box4 h3{
+    margin-left: 100px; color: rgba(163, 108, 4, 0.642); margin-top:100px
+}
+.box4 h1{
+    margin-left: 100px; color: rgba(0, 0, 0, 0.499);
+}
+@media only screen and (max-width:425px) {
+            .box4 h2{
+                font-size: 30px;
+                margin-left: 60px;
+            
+            }
+        }
+@media only screen and (max-width:425px) {
+            .box4 p{
+                font-size: 40px; font-weight: lighter;margin-left: 60px; margin-top: -30px; 
+            
+            }
+        }
+        @media only screen and (max-width:425px) {
+            .box4 h4{
+                margin-left: 60px; margin-top: -39px; font-weight: lighter; 
+            
+            }
+        }
+        @media only screen and (max-width:425px) {
+            .box4 h3{
+                 margin-left: 60px; color: rgba(163, 108, 4, 0.642); margin-top:60px
+            
+            }
+        }
+        @media only screen and (max-width:425px) {
+            .box4 h1{
+                 margin-left: 60px; color: rgba(0, 0, 0, 0.499);
+            
+            }
+        }
+.box4 button h5{
+    margin-top: 5px;
+
+}
+
+.boxx1{
+    display: flex;
+}
+.boxx1 button{
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+}
+@media only screen and (max-width:425px) {
+            .boxx1 button{
+                text-align: left;
+                
+            
+            }
+        }
+
+.boxx1 button h3{
+    margin-top: 10px;
+}
+@media only screen and (max-width:425px) {
+            .boxx1 button h3 a{
+                font-size: small;
+                margin-top: 5px;
+                margin-left: 15px;
+
+            
+            }
+        }
+
+.boxx2{
+    height: 500px;
+    width: 500px;
+    margin-top: 0px;
+    border-radius: 50%;
+    background-color: rgba(65, 65, 100, 0.085);
+    border: 100px solid rgba(255, 166, 0, 0.221);
+}
+@media only screen and (max-width:425px) {
+            .boxx2{
+                height: 200px;
+    width: 200px;
+    margin-left: 70px;
+    margin-top: 0px;
+    border-radius: 50%;
+    background-color: rgba(65, 65, 100, 0.085);
+    border: 50px solid rgba(255, 166, 0, 0.221);
+            
+            }
+        }
+        @media only screen and (max-width:425px) {
+            .boxx2 img{
+                width: 300px;
+            
+            }
+        }
+
+.mainbox5{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+@media only screen and (max-width:425px) {
+            .mainbox5{
+                height: 1000px;
+    width: 100%;
+    background-color: white;
+            
+            }
+        }
+.boxx3{
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 70px solid rgba(255, 166, 0, 0.221);
+}
+@media only screen and (max-width:425px) {
+            .boxx3{
+                height: 200px;
+    width: 200px;
+    margin-top: 700px;
+    border-radius: 50%;
+    background-color: white;
+    border: 70px solid rgba(255, 166, 0, 0.221);
+            
+            }
+        }
+        @media only screen and (max-width:425px) {
+            .boxx3 img{
+                width: 350px;
+            
+            }
+        }
+.mainbox6 button{
+    height: 40px;
+    width: 150px;
+    font-size: medium;
+    background-color: rgba(255, 166, 0, 0.26);
+    color: rgba(75, 58, 25, 0.681);
+    border:rgba(255, 166, 0, 0.26);
+    margin-top: 100px;
+    margin-left: 270px;
+    
+}
+@media only screen and (max-width:425px) {
+            .mainbox6 {
+                margin-left: -550px;
+                margin-top: 0px;
+            
+            }
+        }
+
+.mainbox6 button h5{
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+@media only screen and (max-width:425px) {
+            .mainbox6 button h5 {
+                margin-top: 10px;
+    font-size: 15px;
+            
+            }
+        }
+
+
+.mainbox7{
+    margin-left: 270px; 
+    display: flex;
+    gap: 60px;   
+}
+@media only screen and (max-width:425px) {
+            .mainbox7{
+                margin-left: 230px;
+                gap: 10px;
+            
+            }
+        }
+.mainbox8{
+    margin-left: 270px; 
+    margin-top: 50px;
+    display: flex; 
+    gap: 60px;    
+}
+@media only screen and (max-width:425px) {
+            .mainbox8{
+                margin-left: 230px;
+                gap: 10px;
+            
+            }
+        }
+.boxx4{
+    height: 110px;
+    width: 200px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+}
+@media only screen and (max-width:425px) {
+            .boxx4{
+                height: 90px;
+    width: 180px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    display: flex;
+    gap: 0px;
+            
+            }
+        }
+.boxx4 h2{
+    margin-top: 25px;
+}
+
+.mainbox9{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.827);
+    display: flex;
+}
+@media only screen and (max-width:425px) {
+            .mainbox9{
+                height: 1000px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+            
+            }
+        }
+.box7 button{
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 35px;
+    width: 100px;
+    font-size: large;
+    background-color: rgba(255, 166, 0, 0.26);
+    color: rgba(75, 58, 25, 0.681);
+    border:rgba(255, 166, 0, 0.26);
+    border-radius: 5px;
+    
+}
+@media only screen and (max-width:425px) {
+            .box7 button{
+                margin-top: 200px;
+    margin-left: 60px;
+    height: 35px;
+    width: 100px;
+    font-size: large;
+    background-color: rgba(255, 166, 0, 0.26);
+    color: rgba(75, 58, 25, 0.681);
+    border:rgba(255, 166, 0, 0.26);
+    border-radius: 5px;
+            
+            }
+        }
+.box7 button h5{
+    margin-top: 10px;
+
+}
+.mainbox9 h2{
+    font-size: 35px; font-weight: lighter;margin-left: 100px; margin-top: 20px;
+}
+.mainbox9 p{
+    font-size: 150px; font-weight: lighter;margin-left: 100px; margin-top: -40px; 
+}
+@media only screen and (max-width:425px) {
+            .mainbox9 p{
+                font-size: 120px; font-weight: lighter;margin-left: 60px; margin-top: -40px; 
+            
+            }
+        }
+@media only screen and (max-width:425px) {
+            .mainbox9 h2{
+                font-size: 25px; font-weight: lighter;margin-left: 60px; margin-top: 20px;
+            
+            }
+        }
+.mainbox9 h4{
+    margin-left: 100px; margin-top: -150px; font-weight: lighter;
+}
+@media only screen and (max-width:425px) {
+            .mainbox9 h4{
+                margin-left: 60px; margin-top: -100px; font-weight: lighter;
+            
+            }
+        }
+.boxx5{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 50%;
+    background-color: white;
+    border: 70px solid rgba(255, 166, 0, 0.221);
+    align-items: end;
+}
+@media only screen and (max-width:425px) {
+            .boxx5{
+                height: 250px;
+    width: 250px;
+    margin-top: 600px;
+    margin-left: -350px;
+    border-radius: 50%;
+    background-color: white;
+    border: 50px solid rgba(255, 166, 0, 0.221);
+    align-items: end;
+            
+            }
+        }
+        @media only screen and (max-width:425px) {
+            .boxx5 img{
+                width: 400px;
+            
+            }
+        }
+
+.mainbox10{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+@media only screen and (max-width:425px) {
+            .mainbox10{
+                height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+            
+            }
+        }
+
+.mainbox10 button{
+    margin-top: 100px;
+    margin-left: 600px;
+    height: 35px;
+    width: 100px;
+    font-size: large;
+    background-color: rgba(255, 166, 0, 0.26);
+    color: rgba(75, 58, 25, 0.681);
+    border:rgba(255, 166, 0, 0.26);
+    border-radius: 5px; 
+}
+@media only screen and (max-width:425px) {
+            .mainbox10 button{
+                margin-top: 100px;
+    margin-left: 140px;
+    height: 35px;
+    width: 100px;
+    font-size: large;
+    background-color: rgba(255, 166, 0, 0.26);
+    color: rgba(75, 58, 25, 0.681);
+    border:rgba(255, 166, 0, 0.26);
+    border-radius: 5px;
+            
+            }
+        }
+
+.mainbox10 button h5{
+    margin-top: 10px;
+
+}
+.mainbox10 h2{
+    font-size: 45px; font-weight: lighter;margin-left:400px; margin-top: 20px;
+}
+@media only screen and (max-width:425px) {
+            .mainbox10 h2{
+                 font-size: 25px; font-weight: lighter;margin-left:50px; margin-top: 20px;
+            }
+        }
+.mainbox10 h4{
+    margin-left: 280px; margin-top: px; font-weight: lighter;
+}
+@media only screen and (max-width:425px) {
+            .mainbox10 h4{
+                margin-left: 30px; margin-top: px; font-weight: lighter;
+            }
+        }
+.boxy h4{
+    text-align: center;
+    margin-left: 20px;
+    
+}
+
+@media only screen and (max-width:425px) {
+            .boxy h4{
+                text-align: center;
+    margin-left: 15px;
+            }
+        }
+.boxy h1{
+    margin-top: 40px;  margin-left: 15px;
+}
+@media only screen and (max-width:425px) {
+            .boxy h1{
+                margin-top: 10px;  margin-left: 10px;
+            }
+        }
+.boxx6{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+}
+@media only screen and (max-width:425px) {
+            .boxx6{
+                display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+                
+            }
+        }
+.boxy{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+
+}
+.boxx7{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+@media only screen and (max-width:425px) {
+            .boxx7{
+                margin-left: 20px;
+    margin-top: 50px;
+    
+                
+            }
+        }
+
+.mainbox11{
+    height: 400px;
+    background-image: linear-gradient(orange ,white );
+    background-image: linear-gradient(to top,rgba(255, 166, 0, 0.419),white 50% ); 
+    
+    display: flex;
+}
+@media only screen and (max-width:425px) {
+            .mainbox11{
+                height: 500px;
+    background-image: linear-gradient(orange ,white );
+    background-image: linear-gradient(to top,rgba(255, 166, 0, 0.419),white 50% ); 
+    
+                
+            }
+        }
+
+.boxx9{
+    margin-top: 180px;
+    margin-left: -180px;
+}
+@media only screen and (max-width:425px) {
+            .boxx9{
+                margin-left: 0px;
+    margin-top: 60px;
+    
+                
+            }
+        }
+.boxx10{
+    margin-top: 230px;
+    margin-left: -130px;
+}
+@media only screen and (max-width:425px) {
+            .boxx10{
+                margin-left: 10px;
+    margin-top: 30px;
+    
+                
+            }
+        }
+
+.boxx8{
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+}
+@media only screen and (max-width:425px) {
+            .boxx8{
+                margin-left: -500px;
+    margin-top: 300px;
+    display: flex;
+    
+                
+            }
+        }
+.box9{
+    margin-left: 120px;
+    
+}
+@media only screen and (max-width:425px) {
+            .box9{
+                font-size: 13px;
+                justify-content: left;
+                margin-top: -50px;                
+            }
+        }
+.box9 h2{
+    color: orange;
+}
+.box10{
+    margin-left: 30px;
+    
+}
+@media only screen and (max-width:425px) {
+            .box10{
+                font-size: 13px;
+                justify-content: left;
+                margin-top: -50px; 
+            }
+        }
+.box10 h2{
+    color: orange;
+}
+.box11{
+    margin-left: 20px;
+    
+}
+@media only screen and (max-width:425px) {
+            .box11{
+                font-size: 13px;
+                justify-content: left;
+                margin-top: -50px; 
+            }
+        }
+.box11 h2{
+    color: orange;
+}
+.box11 h3{
+    color: orange;
+}
+@media only screen and (max-width:425px) {
+            .box11 h3{
+                font-size: 20px;
+                margin-left: -50px;
+                margin-top: -20px;
+                
+                
+            }
+        }
+@media only screen and (max-width:425px) {
+            .box11 h2{
+                font-size: 20px;
+                margin-left: 0px;
+                
+                
+            }
+        }
+@media only screen and (max-width:425px) {
+            .box11 li{
+                color: rgba(94, 65, 10, 0.615);
+                
+                
+            }
+        }
+        @media only screen and (max-width:425px) {
+            .box10 li{
+                color: rgba(94, 65, 10, 0.615);
+                
+                
+            }
+        }
+        @media only screen and (max-width:425px ) {
+            .box9 li{
+                color: rgba(94, 65, 10, 0.615);
+                
+                
+            }
+        }
+
+.mainbox12{
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
